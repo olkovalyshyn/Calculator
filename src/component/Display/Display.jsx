@@ -1,6 +1,6 @@
-function Display() {
+function Display({inputValue}) {
     return (
-        <input />
+        <input type="text" value={inputValue }/>
     )
 }
 export default Display;
