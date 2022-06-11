@@ -1,13 +1,5 @@
-// import React, {useState} from "react";
-
+import s from './btnStyle.module.css'
 function Buttons({ onClickInput, onClear, onBackSpace }) {
-  // const [btn1, setBtn1 ]= useState()
-  //   const { secondItem, setSecondItem } = useState()
-  //   const hundleSubmit = e => {
-  //     console.log(e.currentTarget.value)
-  //     setBtn1(e.currentTarget.value)
-
-  // }
 
   return (
     <>
